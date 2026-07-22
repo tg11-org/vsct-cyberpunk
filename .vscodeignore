@@ -1,0 +1,6 @@
+.gitignore
+.github/**
+node_modules/**
+package-lock.json
+vsce-cp.code-workspace
+*.vsix

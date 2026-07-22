@@ -1,0 +1,47 @@
+{
+  "name": "vsct-cyberpunk",
+  "displayName": "VSCT Cyberpunk",
+  "description": "A minimal cyberpunk-inspired dark theme with warm syntax accents and high-visibility comment markers.",
+  "version": "0.0.1",
+  "publisher": "tg11-org",
+  "license": "UNLICENSED",
+  "author": {
+    "name": "tg11-org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tg11-org/vsct-cyberpunk.git"
+  },
+  "homepage": "https://github.com/tg11-org/vsct-cyberpunk#readme",
+  "bugs": {
+    "url": "https://github.com/tg11-org/vsct-cyberpunk/issues"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": ["Themes"],
+  "keywords": ["theme", "color-theme", "cyberpunk", "dark", "comments"],
+  "galleryBanner": {
+    "color": "#0f1513",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "VSCT Cyberpunk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vsct-cyberpunk-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish:vsce": "vsce publish"
+  },
+  "devDependencies": {
+    "vsce": "2.15.0"
+  },
+  "overrides": {
+    "cheerio": "1.0.0-rc.12"
+  }
+}

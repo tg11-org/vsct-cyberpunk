@@ -1,0 +1,56 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#0f1513"
+  },
+  "tokenColors": [
+    {
+      "name": "Keyword & Storage",
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#ff7a00"
+      }
+    },
+    {
+      "name": "Standard Comments",
+      "scope": ["comment", "comment.line", "comment.block"],
+      "settings": {
+        "foreground": "#6a737d"
+      }
+    },
+    {
+      "name": "TODO / WIP / NOTE in comments",
+      "scope": [
+        "comment.line.todo",
+        "comment.line.note",
+        "comment.block.todo",
+        "comment.block.note",
+        "comment keyword.control.todo",
+        "comment keyword.control.note"
+      ],
+      "settings": {
+        "foreground": "#ffcc00",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Special symbol markers in comments (? ! @ etc)",
+      "scope": [
+        "comment.line punctuation.definition.comment.special",
+        "comment.block punctuation.definition.comment.special"
+      ],
+      "settings": {
+        "foreground": "#ff7a00",
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "name": "Italic for * marker",
+      "scope": ["comment.line punctuation.definition.comment.asterisk"],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    }
+  ]
+}
