@@ -4,3 +4,11 @@ node_modules/**
 package-lock.json
 vsce-cp.code-workspace
 *.vsix
+scripts/**
+gitpush.bat
+gitpush.sh
+release.bat
+release.sh
+requirements.txt
+.env
+.env.*
