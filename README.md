@@ -1,6 +1,6 @@
 # TG11 Cyberpunk Pack
 
-TG11 Cyberpunk Pack is a dark VS Code theme with a matching comment-highlighting injection grammar. It keeps the editor deep and muted while making keywords, TODO-style tags, and inline comment symbols pop across supported grammars.
+TG11 Cyberpunk Pack is a dark VS Code theme with a matching comment-highlighting injection grammar. It keeps the editor deep and muted while making keywords, TODO-style tags, and inline comment symbols pop across a broad set of supported grammars.
 
 ## Included
 
@@ -9,6 +9,7 @@ TG11 Cyberpunk Pack is a dark VS Code theme with a matching comment-highlighting
 - Stronger visibility for TODO / NOTE / FIXME / WARNING style comment tokens
 - Extra styling for comment symbols such as `!`, `@`, `#`, `?`, box-drawing glyphs, and other callouts
 - Theme label: `tg11-cyberpunk`
+- Broad grammar injection coverage for common languages such as Python, Tcl, C, C++, C#, Java, JavaScript, TypeScript, Ruby, Lua, PHP, Rust, Go, Shell, SQL, HTML, XML, YAML, and more
 
 ## Local packaging
 
@@ -56,7 +57,7 @@ Useful variants:
 ```powershell
 npm run release:github -- --dry-run
 npm run release:github -- --tag v0.0.2-beta.1 --prerelease
-npm run release:github -- --file .\tg11-cyberpunk-pack-0.0.2.vsix
+npm run release:github -- --file .\tg11-cyberpunk-pack-0.0.3.vsix
 ```
 
 ## Publishing notes
