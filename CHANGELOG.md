@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.0.6
+
+- Promoted arrow-style callouts plus `§` and `¤` to line-owning markers
+- Removed those markers from the neutral gray divider handling so they behave like explicit callouts
+
 ## 0.0.5
 
 - Added gray line-owning divider runs for repeated separators and box-drawing outlines

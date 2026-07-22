@@ -9,7 +9,7 @@
           "name": "keyword.control.comment.special.todo"
         }
       },
-      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?))",
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
       "contentName": "keyword.control.comment.special.todo"
     },
     {
@@ -19,7 +19,7 @@
           "name": "keyword.control.comment.special.note"
         }
       },
-      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?))",
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
       "contentName": "keyword.control.comment.special.note"
     },
     {
@@ -29,7 +29,7 @@
           "name": "keyword.control.comment.special.fixme"
         }
       },
-      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?))",
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
       "contentName": "keyword.control.comment.special.fixme"
     },
     {
@@ -39,7 +39,7 @@
           "name": "keyword.control.comment.special.hack"
         }
       },
-      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?))",
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
       "contentName": "keyword.control.comment.special.hack"
     },
     {
@@ -49,7 +49,7 @@
           "name": "keyword.control.comment.special.bug"
         }
       },
-      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?))",
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
       "contentName": "keyword.control.comment.special.bug"
     },
     {
@@ -59,7 +59,7 @@
           "name": "keyword.control.comment.special.xxx"
         }
       },
-      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?))",
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
       "contentName": "keyword.control.comment.special.xxx"
     },
     {
@@ -69,27 +69,27 @@
           "name": "keyword.control.comment.special.nb"
         }
       },
-      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?))",
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
       "contentName": "keyword.control.comment.special.nb"
     },
     {
-      "begin": "(?<!\\S)[\\-\\=\\+\\*\\|\\:\\;\\<\\>\\`]{3,}",
+      "begin": "(?<!\\S)[\\-\\=\\+\\*\\|\\:\\;\\`]{3,}",
       "beginCaptures": {
         "0": {
           "name": "keyword.control.comment.structure.divider"
         }
       },
-      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?))",
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
       "contentName": "keyword.control.comment.structure.divider"
     },
     {
-      "begin": "(?<!\\S)[¦×÷•‣§¶¤]{2,}",
+      "begin": "(?<!\\S)[¦×÷•‣¶]{2,}",
       "beginCaptures": {
         "0": {
           "name": "keyword.control.comment.structure.divider"
         }
       },
-      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?))",
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
       "contentName": "keyword.control.comment.structure.divider"
     },
     {
@@ -99,7 +99,7 @@
           "name": "keyword.control.comment.structure.divider"
         }
       },
-      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?))",
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
       "contentName": "keyword.control.comment.structure.divider"
     },
     {
@@ -109,7 +109,7 @@
           "name": "keyword.control.comment.symbol.tilde"
         }
       },
-      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?))",
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
       "contentName": "keyword.control.comment.symbol.tilde"
     },
     {
@@ -119,7 +119,7 @@
           "name": "keyword.control.comment.symbol.exclamation"
         }
       },
-      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?))",
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
       "contentName": "keyword.control.comment.symbol.exclamation"
     },
     {
@@ -129,7 +129,7 @@
           "name": "keyword.control.comment.symbol.at"
         }
       },
-      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?))",
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
       "contentName": "keyword.control.comment.symbol.at"
     },
     {
@@ -139,7 +139,7 @@
           "name": "keyword.control.comment.symbol.cash"
         }
       },
-      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?))",
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
       "contentName": "keyword.control.comment.symbol.cash"
     },
     {
@@ -149,7 +149,7 @@
           "name": "keyword.control.comment.symbol.percent"
         }
       },
-      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?))",
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
       "contentName": "keyword.control.comment.symbol.percent"
     },
     {
@@ -159,7 +159,7 @@
           "name": "keyword.control.comment.symbol.caret"
         }
       },
-      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?))",
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
       "contentName": "keyword.control.comment.symbol.caret"
     },
     {
@@ -169,7 +169,7 @@
           "name": "keyword.control.comment.symbol.ampersand"
         }
       },
-      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?))",
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
       "contentName": "keyword.control.comment.symbol.ampersand"
     },
     {
@@ -179,8 +179,88 @@
           "name": "keyword.control.comment.symbol.question"
         }
       },
-      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?))",
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
       "contentName": "keyword.control.comment.symbol.question"
+    },
+    {
+      "begin": "(?<!\\S)>",
+      "beginCaptures": {
+        "0": {
+          "name": "keyword.control.comment.symbol.greaterthan"
+        }
+      },
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
+      "contentName": "keyword.control.comment.symbol.greaterthan"
+    },
+    {
+      "begin": "(?<!\\S)<",
+      "beginCaptures": {
+        "0": {
+          "name": "keyword.control.comment.symbol.lessthan"
+        }
+      },
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
+      "contentName": "keyword.control.comment.symbol.lessthan"
+    },
+    {
+      "begin": "(?<!\\S)§",
+      "beginCaptures": {
+        "0": {
+          "name": "keyword.control.comment.symbol.section"
+        }
+      },
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
+      "contentName": "keyword.control.comment.symbol.section"
+    },
+    {
+      "begin": "(?<!\\S)¤",
+      "beginCaptures": {
+        "0": {
+          "name": "keyword.control.comment.symbol.generic"
+        }
+      },
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
+      "contentName": "keyword.control.comment.symbol.generic"
+    },
+    {
+      "begin": "(?<!\\S)›",
+      "beginCaptures": {
+        "0": {
+          "name": "keyword.control.comment.symbol.single-right-pointing-angle-quote"
+        }
+      },
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
+      "contentName": "keyword.control.comment.symbol.single-right-pointing-angle-quote"
+    },
+    {
+      "begin": "(?<!\\S)‹",
+      "beginCaptures": {
+        "0": {
+          "name": "keyword.control.comment.symbol.single-left-pointing-angle-quote"
+        }
+      },
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
+      "contentName": "keyword.control.comment.symbol.single-left-pointing-angle-quote"
+    },
+    {
+      "begin": "(?<!\\S)»",
+      "beginCaptures": {
+        "0": {
+          "name": "keyword.control.comment.symbol.double-right-pointing-angle-quote"
+        }
+      },
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
+      "contentName": "keyword.control.comment.symbol.double-right-pointing-angle-quote"
+    },
+    {
+      "begin": "(?<!\\S)«",
+      "beginCaptures": {
+        "0": {
+          "name": "keyword.control.comment.symbol.double-left-pointing-angle-quote"
+        }
+      },
+      "end": "(?=$|\\*/|(?i)\\b(?:TODO|WIP|TBD)\\b|(?i)\\b(?:NOTE|DOC)\\b|(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b|(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b|(?i)\\b(?:BUG|NOTICE)\\b|(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b|(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b|(?<!\\S)(?:~|!|@|\\$|%|\\^|&|\\?|>|<|§|¤|›|‹|»|«))",
+      "contentName": "keyword.control.comment.symbol.double-left-pointing-angle-quote"
     },
     {
       "name": "keyword.control.comment.symbol.pound",
@@ -215,48 +295,16 @@
       "match": "(?<!\\S);"
     },
     {
-      "name": "keyword.control.comment.symbol.greaterthan",
-      "match": "(?<!\\S)>"
-    },
-    {
       "name": "keyword.control.comment.symbol.backslash",
       "match": "(?<!\\S)\\\\"
-    },
-    {
-      "name": "keyword.control.comment.symbol.lessthan",
-      "match": "(?<!\\S)<"
     },
     {
       "name": "keyword.control.comment.symbol.grave",
       "match": "(?<!\\S)`"
     },
     {
-      "name": "keyword.control.comment.symbol.section",
-      "match": "(?<!\\S)§"
-    },
-    {
       "name": "keyword.control.comment.symbol.pilcrow",
       "match": "(?<!\\S)¶"
-    },
-    {
-      "name": "keyword.control.comment.symbol.generic",
-      "match": "(?<!\\S)¤"
-    },
-    {
-      "name": "keyword.control.comment.symbol.single-right-pointing-angle-quote",
-      "match": "(?<!\\S)›"
-    },
-    {
-      "name": "keyword.control.comment.symbol.single-left-pointing-angle-quote",
-      "match": "(?<!\\S)‹"
-    },
-    {
-      "name": "keyword.control.comment.symbol.double-right-pointing-angle-quote",
-      "match": "(?<!\\S)»"
-    },
-    {
-      "name": "keyword.control.comment.symbol.double-left-pointing-angle-quote",
-      "match": "(?<!\\S)«"
     },
     {
       "name": "keyword.control.comment.symbol.broken-pipe",

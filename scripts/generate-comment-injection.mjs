@@ -48,17 +48,25 @@ const lineSymbolPatterns = [
   ["keyword.control.comment.symbol.percent", "%"],
   ["keyword.control.comment.symbol.caret", "^"],
   ["keyword.control.comment.symbol.ampersand", "&"],
-  ["keyword.control.comment.symbol.question", "?"]
+  ["keyword.control.comment.symbol.question", "?"],
+  ["keyword.control.comment.symbol.greaterthan", ">"],
+  ["keyword.control.comment.symbol.lessthan", "<"],
+  ["keyword.control.comment.symbol.section", cp(0x00a7)],
+  ["keyword.control.comment.symbol.generic", cp(0x00a4)],
+  ["keyword.control.comment.symbol.single-right-pointing-angle-quote", cp(0x203a)],
+  ["keyword.control.comment.symbol.single-left-pointing-angle-quote", cp(0x2039)],
+  ["keyword.control.comment.symbol.double-right-pointing-angle-quote", cp(0x00bb)],
+  ["keyword.control.comment.symbol.double-left-pointing-angle-quote", cp(0x00ab)]
 ];
 
 const dividerRegionPatterns = [
   {
     scope: "keyword.control.comment.structure.divider",
-    begin: "(?<!\\S)[\\-\\=\\+\\*\\|\\:\\;\\<\\>\\`]{3,}"
+    begin: "(?<!\\S)[\\-\\=\\+\\*\\|\\:\\;\\`]{3,}"
   },
   {
     scope: "keyword.control.comment.structure.divider",
-    begin: `(?<!\\S)[${cp(0x00a6)}${cp(0x00d7)}${cp(0x00f7)}${cp(0x2022)}${cp(0x2023)}${cp(0x00a7)}${cp(0x00b6)}${cp(0x00a4)}]{2,}`
+    begin: `(?<!\\S)[${cp(0x00a6)}${cp(0x00d7)}${cp(0x00f7)}${cp(0x2022)}${cp(0x2023)}${cp(0x00b6)}]{2,}`
   },
   {
     scope: "keyword.control.comment.structure.divider",
@@ -75,17 +83,9 @@ const tokenSymbolPatterns = [
   ["keyword.control.comment.symbol.pipe", "|"],
   ["keyword.control.comment.symbol.colon", ":"],
   ["keyword.control.comment.symbol.semicolon", ";"],
-  ["keyword.control.comment.symbol.greaterthan", ">"],
   ["keyword.control.comment.symbol.backslash", "\\"],
-  ["keyword.control.comment.symbol.lessthan", "<"],
   ["keyword.control.comment.symbol.grave", "`"],
-  ["keyword.control.comment.symbol.section", cp(0x00a7)],
   ["keyword.control.comment.symbol.pilcrow", cp(0x00b6)],
-  ["keyword.control.comment.symbol.generic", cp(0x00a4)],
-  ["keyword.control.comment.symbol.single-right-pointing-angle-quote", cp(0x203a)],
-  ["keyword.control.comment.symbol.single-left-pointing-angle-quote", cp(0x2039)],
-  ["keyword.control.comment.symbol.double-right-pointing-angle-quote", cp(0x00bb)],
-  ["keyword.control.comment.symbol.double-left-pointing-angle-quote", cp(0x00ab)],
   ["keyword.control.comment.symbol.broken-pipe", cp(0x00a6)],
   ["keyword.control.comment.symbol.multiply", cp(0x00d7)],
   ["keyword.control.comment.symbol.divide", cp(0x00f7)],
