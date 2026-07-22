@@ -51,6 +51,21 @@ const lineSymbolPatterns = [
   ["keyword.control.comment.symbol.question", "?"]
 ];
 
+const dividerRegionPatterns = [
+  {
+    scope: "keyword.control.comment.structure.divider",
+    begin: "(?<!\\S)[\\-\\=\\+\\*\\|\\:\\;\\<\\>\\`]{3,}"
+  },
+  {
+    scope: "keyword.control.comment.structure.divider",
+    begin: `(?<!\\S)[${cp(0x00a6)}${cp(0x00d7)}${cp(0x00f7)}${cp(0x2022)}${cp(0x2023)}${cp(0x00a7)}${cp(0x00b6)}${cp(0x00a4)}]{2,}`
+  },
+  {
+    scope: "keyword.control.comment.structure.divider",
+    begin: `(?<!\\S)[${cp(0x2500)}${cp(0x2502)}${cp(0x250c)}${cp(0x2510)}${cp(0x2514)}${cp(0x2518)}${cp(0x251c)}${cp(0x2524)}${cp(0x252c)}${cp(0x2534)}${cp(0x253c)}${cp(0x256d)}${cp(0x256e)}${cp(0x256f)}${cp(0x2570)}]{2,}`
+  }
+];
+
 const tokenSymbolPatterns = [
   ["keyword.control.comment.symbol.pound", "#"],
   ["keyword.control.comment.symbol.asterisk", "*"],
@@ -111,6 +126,16 @@ const grammar = {
   injectionSelector: "L:comment",
   patterns: [
     ...lineTagPatterns.map(pattern => ({
+      begin: pattern.begin,
+      beginCaptures: {
+        "0": {
+          name: pattern.scope
+        }
+      },
+      end: regionEnd,
+      contentName: pattern.scope
+    })),
+    ...dividerRegionPatterns.map(pattern => ({
       begin: pattern.begin,
       beginCaptures: {
         "0": {

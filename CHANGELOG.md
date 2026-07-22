@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.0.5
+
+- Added gray line-owning divider runs for repeated separators and box-drawing outlines
+- Kept explicit attention markers like `!` and `@` able to take over later on the same comment line
+
 ## 0.0.4
 
 - Added line-owning comment callout regions for key tags and attention symbols

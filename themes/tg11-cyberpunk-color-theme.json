@@ -372,6 +372,13 @@
       }
     },
     {
+      "name": "Custom Comments Divider Runs",
+      "scope": "keyword.control.comment.structure.divider",
+      "settings": {
+        "foreground": "#565656"
+      }
+    },
+    {
       "name": "Custom Comments Symbol Exclamation",
       "scope": "keyword.control.comment.symbol.exclamation",
       "settings": {
