@@ -29,12 +29,26 @@ $Env:GITHUB_TOKEN="YOUR_TOKEN_HERE"
 npm run release:package:github
 ```
 
+Or use the local wrapper that auto-loads `github_pat` from `.env`:
+
+```powershell
+.\release.bat
+```
+
+From WSL / bash:
+
+```bash
+./release.sh
+```
+
 That flow:
 
 - builds the `.vsix`
 - finds the newest `.vsix` in the repo root
 - creates or updates the release for `v<package.json version>`
 - replaces the asset if a file with the same name is already attached
+
+This is a GitHub Release upload flow, not Visual Studio Marketplace publishing. Marketplace publishing is still a separate `vsce publish` step.
 
 Useful variants:
 
