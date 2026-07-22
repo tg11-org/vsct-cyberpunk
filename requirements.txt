@@ -1,0 +1,13 @@
+# This repository does not have Python runtime dependencies.
+# This file only exists to smooth out npm installs when `vsce` falls back to
+# building `keytar` from source via `node-gyp`.
+#
+# For the Node 18 / npm 8 toolchain used in this repo, Python 3.10 is the
+# safest choice. npm 8 bundles node-gyp 9.x, while node-gyp's current docs say
+# Python 3.12+ requires node-gyp 10+.
+#
+# If needed, point npm at your chosen interpreter before installing:
+#   PowerShell: $Env:npm_config_python="C:\path\to\python.exe"
+#   bash/zsh:   export npm_config_python=/path/to/python3.10
+
+setuptools>=68

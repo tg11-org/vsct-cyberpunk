@@ -18,6 +18,8 @@ npm run package
 
 That produces a `.vsix` file you can install locally or upload through the Visual Studio Marketplace publisher portal.
 
+If `npm install` falls back to compiling `keytar`, install the helper Python bits from [requirements.txt](/U:/Projects/vsce-cp/requirements.txt:1) and prefer Python 3.10 for this repo's current Node 18 / npm 8 toolchain.
+
 ## Publishing notes
 
 If your Visual Studio Marketplace publisher ID is not `tg11-org`, update the `publisher` field in `package.json` before running `vsce publish` or uploading a package built from that manifest.
