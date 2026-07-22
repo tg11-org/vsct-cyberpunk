@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.0.4
+
+- Added line-owning comment callout regions for key tags and attention symbols
+- Kept structural comment glyphs as lighter single-token accents to avoid over-highlighting whole comments
+
 ## 0.0.3
 
 - Expanded comment injection coverage across a much broader set of language scopes

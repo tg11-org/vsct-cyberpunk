@@ -1,8 +1,8 @@
 {
   "name": "tg11-cyberpunk-pack",
   "displayName": "TG11 Cyberpunk Pack",
-  "description": "A cyberpunk VS Code theme pack with vivid comment tag and symbol highlighting injections across many languages.",
-  "version": "0.0.3",
+  "description": "A cyberpunk VS Code theme pack with vivid comment tag and symbol highlighting injections across many languages, including line-owning callout markers.",
+  "version": "0.0.4",
   "publisher": "TrentonGage11",
   "license": "UNLICENSED",
   "author": {
