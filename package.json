@@ -36,7 +36,9 @@
   },
   "scripts": {
     "package": "vsce package",
-    "publish:vsce": "vsce publish"
+    "publish:vsce": "vsce publish",
+    "release:github": "node ./scripts/publish-github-release.mjs",
+    "release:package:github": "npm run package && npm run release:github"
   },
   "devDependencies": {
     "vsce": "2.15.0"
