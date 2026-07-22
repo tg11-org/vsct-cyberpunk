@@ -1,0 +1,222 @@
+{
+  "scopeName": "tg11-cyberpunk.comment.injection",
+  "injectionSelector": "L:comment",
+  "patterns": [
+    {
+      "name": "keyword.control.comment.special.todo",
+      "match": "(?i)\\b(?:TODO|WIP|TBD)\\b"
+    },
+    {
+      "name": "keyword.control.comment.special.note",
+      "match": "(?i)\\b(?:NOTE|DOC)\\b"
+    },
+    {
+      "name": "keyword.control.comment.special.fixme",
+      "match": "(?i)\\b(?:FIXME|FIX|BROKEN|BROKE|BORKED|BORKEN|BORKE|BORK)\\b"
+    },
+    {
+      "name": "keyword.control.comment.special.hack",
+      "match": "(?i)\\b(?:TMP\\s+FIX|TEMP\\s+FIX|HACK|TEMP|TMP)\\b"
+    },
+    {
+      "name": "keyword.control.comment.special.bug",
+      "match": "(?i)\\b(?:BUG|NOTICE)\\b"
+    },
+    {
+      "name": "keyword.control.comment.special.xxx",
+      "match": "(?i)\\b(?:DANGEROUS|WARNING|DANGER|WARN|XXX)\\b"
+    },
+    {
+      "name": "keyword.control.comment.special.nb",
+      "match": "(?i)\\b(?:NOTE\\s+BENE|PAY\\s+ATTENTION|IMPORTANT|NOTA|BENE|NB)\\b"
+    },
+    {
+      "name": "keyword.control.comment.symbol.tilde",
+      "match": "(?<!\\S)~"
+    },
+    {
+      "name": "keyword.control.comment.symbol.exclamation",
+      "match": "(?<!\\S)!"
+    },
+    {
+      "name": "keyword.control.comment.symbol.at",
+      "match": "(?<!\\S)@"
+    },
+    {
+      "name": "keyword.control.comment.symbol.pound",
+      "match": "(?<!\\S)#"
+    },
+    {
+      "name": "keyword.control.comment.symbol.cash",
+      "match": "(?<!\\S)\\$"
+    },
+    {
+      "name": "keyword.control.comment.symbol.percent",
+      "match": "(?<!\\S)%"
+    },
+    {
+      "name": "keyword.control.comment.symbol.caret",
+      "match": "(?<!\\S)\\^"
+    },
+    {
+      "name": "keyword.control.comment.symbol.ampersand",
+      "match": "(?<!\\S)&"
+    },
+    {
+      "name": "keyword.control.comment.symbol.asterisk",
+      "match": "(?<!\\S)\\*"
+    },
+    {
+      "name": "keyword.control.comment.symbol.minus",
+      "match": "(?<!\\S)\\-"
+    },
+    {
+      "name": "keyword.control.comment.symbol.plus",
+      "match": "(?<!\\S)\\+"
+    },
+    {
+      "name": "keyword.control.comment.symbol.equals",
+      "match": "(?<!\\S)="
+    },
+    {
+      "name": "keyword.control.comment.symbol.pipe",
+      "match": "(?<!\\S)\\|"
+    },
+    {
+      "name": "keyword.control.comment.symbol.colon",
+      "match": "(?<!\\S):"
+    },
+    {
+      "name": "keyword.control.comment.symbol.semicolon",
+      "match": "(?<!\\S);"
+    },
+    {
+      "name": "keyword.control.comment.symbol.greaterthan",
+      "match": "(?<!\\S)>"
+    },
+    {
+      "name": "keyword.control.comment.symbol.question",
+      "match": "(?<!\\S)\\?"
+    },
+    {
+      "name": "keyword.control.comment.symbol.backslash",
+      "match": "(?<!\\S)\\\\"
+    },
+    {
+      "name": "keyword.control.comment.symbol.lessthan",
+      "match": "(?<!\\S)<"
+    },
+    {
+      "name": "keyword.control.comment.symbol.grave",
+      "match": "(?<!\\S)`"
+    },
+    {
+      "name": "keyword.control.comment.symbol.section",
+      "match": "(?<!\\S)§"
+    },
+    {
+      "name": "keyword.control.comment.symbol.pilcrow",
+      "match": "(?<!\\S)¶"
+    },
+    {
+      "name": "keyword.control.comment.symbol.generic",
+      "match": "(?<!\\S)¤"
+    },
+    {
+      "name": "keyword.control.comment.symbol.single-right-pointing-angle-quote",
+      "match": "(?<!\\S)›"
+    },
+    {
+      "name": "keyword.control.comment.symbol.single-left-pointing-angle-quote",
+      "match": "(?<!\\S)‹"
+    },
+    {
+      "name": "keyword.control.comment.symbol.double-right-pointing-angle-quote",
+      "match": "(?<!\\S)»"
+    },
+    {
+      "name": "keyword.control.comment.symbol.double-left-pointing-angle-quote",
+      "match": "(?<!\\S)«"
+    },
+    {
+      "name": "keyword.control.comment.symbol.broken-pipe",
+      "match": "(?<!\\S)¦"
+    },
+    {
+      "name": "keyword.control.comment.symbol.multiply",
+      "match": "(?<!\\S)×"
+    },
+    {
+      "name": "keyword.control.comment.symbol.divide",
+      "match": "(?<!\\S)÷"
+    },
+    {
+      "name": "keyword.control.comment.symbol.bullet",
+      "match": "(?<!\\S)•"
+    },
+    {
+      "name": "keyword.control.comment.symbol.bullet-sharp",
+      "match": "(?<!\\S)‣"
+    },
+    {
+      "name": "keyword.control.comment.symbol.bdc-horizontal",
+      "match": "(?<!\\S)─"
+    },
+    {
+      "name": "keyword.control.comment.symbol.bdc-vertical",
+      "match": "(?<!\\S)│"
+    },
+    {
+      "name": "keyword.control.comment.symbol.bdc-down-right",
+      "match": "(?<!\\S)┌"
+    },
+    {
+      "name": "keyword.control.comment.symbol.bdc-down-left",
+      "match": "(?<!\\S)┐"
+    },
+    {
+      "name": "keyword.control.comment.symbol.bdc-up-right",
+      "match": "(?<!\\S)└"
+    },
+    {
+      "name": "keyword.control.comment.symbol.bdc-up-left",
+      "match": "(?<!\\S)┘"
+    },
+    {
+      "name": "keyword.control.comment.symbol.bdc-vertical-right",
+      "match": "(?<!\\S)├"
+    },
+    {
+      "name": "keyword.control.comment.symbol.bdc-vertical-left",
+      "match": "(?<!\\S)┤"
+    },
+    {
+      "name": "keyword.control.comment.symbol.bdc-horizontal-down",
+      "match": "(?<!\\S)┬"
+    },
+    {
+      "name": "keyword.control.comment.symbol.bdc-horizontal-up",
+      "match": "(?<!\\S)┴"
+    },
+    {
+      "name": "keyword.control.comment.symbol.bdc-vertical-horizontal",
+      "match": "(?<!\\S)┼"
+    },
+    {
+      "name": "keyword.control.comment.symbol.bdc-down-right-arc",
+      "match": "(?<!\\S)╭"
+    },
+    {
+      "name": "keyword.control.comment.symbol.bdc-down-left-arc",
+      "match": "(?<!\\S)╮"
+    },
+    {
+      "name": "keyword.control.comment.symbol.bdc-up-left-arc",
+      "match": "(?<!\\S)╯"
+    },
+    {
+      "name": "keyword.control.comment.symbol.bdc-up-right-arc",
+      "match": "(?<!\\S)╰"
+    }
+  ]
+}

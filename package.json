@@ -1,12 +1,12 @@
 {
-  "name": "vsct-cyberpunk",
-  "displayName": "VSCT Cyberpunk",
-  "description": "A minimal cyberpunk-inspired dark theme with warm syntax accents and high-visibility comment markers.",
-  "version": "0.0.1",
-  "publisher": "tg11-org",
+  "name": "tg11-cyberpunk-pack",
+  "displayName": "TG11 Cyberpunk Pack",
+  "description": "A cyberpunk VS Code theme pack with vivid comment tag and symbol highlighting injections.",
+  "version": "0.0.2",
+  "publisher": "TrentonGage11",
   "license": "UNLICENSED",
   "author": {
-    "name": "tg11-org"
+    "name": "TrentonGage11"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
     "vscode": "^1.74.0"
   },
   "categories": ["Themes"],
-  "keywords": ["theme", "color-theme", "cyberpunk", "dark", "comments"],
+  "keywords": ["theme", "color-theme", "cyberpunk", "dark", "comments", "syntax-highlighting", "todo"],
   "galleryBanner": {
     "color": "#0f1513",
     "theme": "dark"
@@ -28,9 +28,54 @@
   "contributes": {
     "themes": [
       {
-        "label": "VSCT Cyberpunk",
+        "label": "tg11-cyberpunk",
         "uiTheme": "vs-dark",
-        "path": "./themes/vsct-cyberpunk-color-theme.json"
+        "path": "./themes/tg11-cyberpunk-color-theme.json"
+      }
+    ],
+    "grammars": [
+      {
+        "scopeName": "tg11-cyberpunk.comment.injection",
+        "path": "./syntaxes/tg11-cyberpunk-comment-injection.tmLanguage.json",
+        "injectTo": [
+          "source.batchfile",
+          "source.c",
+          "source.csharp",
+          "source.cpp",
+          "source.css",
+          "source.css.less",
+          "source.css.scss",
+          "source.dockerfile",
+          "source.go",
+          "source.groovy",
+          "source.ini",
+          "source.java",
+          "source.js",
+          "source.jsx",
+          "source.json",
+          "source.kotlin",
+          "source.lua",
+          "source.makefile",
+          "source.objc",
+          "source.objcpp",
+          "source.php",
+          "source.powershell",
+          "source.python",
+          "source.ruby",
+          "source.rust",
+          "source.scala",
+          "source.shell",
+          "source.sql",
+          "source.swift",
+          "source.toml",
+          "source.ts",
+          "source.tsx",
+          "source.yaml",
+          "text.html.basic",
+          "text.html.markdown",
+          "text.pug",
+          "text.xml"
+        ]
       }
     ]
   },

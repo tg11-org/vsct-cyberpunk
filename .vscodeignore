@@ -12,3 +12,6 @@ release.sh
 requirements.txt
 .env
 .env.*
+cphc.json
+cphc.tmLanguage.json
+themes/vsct-cyberpunk-color-theme.json

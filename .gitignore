@@ -3,3 +3,5 @@ node_modules/
 *.code-workspace
 .env
 .env.*
+cphc.json
+cphc.tmLanguage.json

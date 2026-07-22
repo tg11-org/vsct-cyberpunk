@@ -1,13 +1,14 @@
-# VSCT Cyberpunk
+# TG11 Cyberpunk Pack
 
-VSCT Cyberpunk is a minimal dark VS Code theme built around the supplied JSON theme file. It keeps the overall editor background deep and muted while making keywords, TODO markers, and special comment punctuation pop.
+TG11 Cyberpunk Pack is a dark VS Code theme with a matching comment-highlighting injection grammar. It keeps the editor deep and muted while making keywords, TODO-style tags, and inline comment symbols pop across supported grammars.
 
 ## Included
 
 - Dark editor background
 - Bright keyword and storage highlighting
-- Stronger visibility for TODO / NOTE style comment tokens
-- Extra styling for special comment punctuation
+- Stronger visibility for TODO / NOTE / FIXME / WARNING style comment tokens
+- Extra styling for comment symbols such as `!`, `@`, `#`, `?`, box-drawing glyphs, and other callouts
+- Theme label: `tg11-cyberpunk`
 
 ## Local packaging
 
@@ -55,9 +56,9 @@ Useful variants:
 ```powershell
 npm run release:github -- --dry-run
 npm run release:github -- --tag v0.0.2-beta.1 --prerelease
-npm run release:github -- --file .\vsct-cyberpunk-0.0.1.vsix
+npm run release:github -- --file .\tg11-cyberpunk-pack-0.0.2.vsix
 ```
 
 ## Publishing notes
 
-If your Visual Studio Marketplace publisher ID is not `tg11-org`, update the `publisher` field in `package.json` before running `vsce publish` or uploading a package built from that manifest.
+The extension manifest is set to publisher `TrentonGage11`. If your Visual Studio Marketplace publisher ID differs from that, update the `publisher` field in `package.json` before running `vsce publish` or uploading a package built from that manifest.
